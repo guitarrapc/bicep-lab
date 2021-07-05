@@ -1,0 +1,7 @@
+services:
+  bicep:
+    image: guitarrapc/docker-bicep:0.4.63
+    command: /bin/bash
+    volume:
+      - .:/bicep
+      # azure subscription
