@@ -23,7 +23,29 @@ https://github.com/Azure/bicep
 
 ## Get started
 
+Azure Authentication for az.
+
 
 ## Docs
 
 * [Official Doc](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview)
+
+## TIPS
+
+### Use az bicep
+
+If you want use bicep through az, `az bicep` will fit your usage.
+Following two are same result.
+
+```shell
+az bicep build -f file.bicep
+bicep decompile -f file.bicep
+```
+
+### Decompile
+
+ARM Template to bicep.
+
+```shell
+bicep decompile -f template.json
+```
