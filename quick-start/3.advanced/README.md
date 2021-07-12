@@ -1,4 +1,4 @@
-## Getting Started
+## Advanced
 
 > detail: https://github.com/Azure/bicep/blob/main/docs/tutorial/05-loops-conditions-existing.md
 

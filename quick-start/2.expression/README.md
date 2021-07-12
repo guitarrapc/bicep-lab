@@ -1,4 +1,4 @@
-## Getting Started
+## Expression
 
 > detail: https://github.com/Azure/bicep/blob/main/docs/tutorial/03-using-expressions.md
 
